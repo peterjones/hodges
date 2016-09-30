@@ -1,0 +1,22 @@
+uuid: 46c1901d-765a-4c1f-ba78-508a7e008962
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - hodges_theme
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: hodges_theme_messages
+theme: hodges_theme
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 373468fa-267e-4e5c-a926-216b8bf06c50
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - hodges_theme
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: hodges_theme_breadcrumbs
+theme: hodges_theme
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

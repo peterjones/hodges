@@ -1,0 +1,25 @@
+uuid: 91cbb04f-6774-4510-9665-2f4b91de1dc4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - hodges_theme
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: hodges_theme_branding
+theme: hodges_theme
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

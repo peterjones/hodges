@@ -1,0 +1,22 @@
+uuid: 144e1060-4d16-4ebc-afc6-0aeb31146340
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - hodges_theme
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: hodges_theme_powered
+theme: hodges_theme
+region: footer_fifth
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }
