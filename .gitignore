@@ -1,0 +1,6 @@
+.DS_Store
+.idea/
+.vagrant/
+config/local.settings.php
+vendor/
+web/

@@ -1,0 +1,5 @@
+name: Hodges Custom
+type: module
+description: Custom module for hodges
+core: 8.x
+package: hodges
